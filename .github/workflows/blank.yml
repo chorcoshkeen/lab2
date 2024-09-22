@@ -45,4 +45,4 @@ jobs:
       - name: Build the Inference Service Docker image
         run: docker build . --file docker/Dockerfile --tag anjolocotom/lab2:inference-service
       - name: Push the Inference Service Docker image
-        run: docker push $DOCKER_USER/lab2:inference-service
+        run: docker push anjolocotom/lab2:inference-service
